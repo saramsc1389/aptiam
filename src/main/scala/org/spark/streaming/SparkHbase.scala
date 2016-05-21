@@ -27,7 +27,7 @@ object SparkHbase {
     println(people.count())
     println(people.first())
 
-  //  people.foreach(r=>saveHbase(r,"dailymail"))
+    people.foreach(r=>saveHbase(r,"dailymail"))
 
   println("sucess")
 
